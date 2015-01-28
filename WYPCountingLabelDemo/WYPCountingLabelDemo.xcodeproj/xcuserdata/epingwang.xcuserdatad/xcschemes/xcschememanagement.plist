@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>WYPCountingLabel.xcscheme</key>
+		<key>WYPCountingLabelDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>61F72BAF1A77896A00B85274</key>
+		<key>61E7F5C71A7888C1008ABFF6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>61F72BC81A77896B00B85274</key>
+		<key>61E7F5E01A7888C1008ABFF6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

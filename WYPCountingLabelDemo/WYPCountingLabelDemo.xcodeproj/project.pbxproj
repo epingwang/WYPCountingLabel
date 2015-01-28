@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61E7F5CE1A7888C1008ABFF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E7F5CD1A7888C1008ABFF6 /* main.m */; };
+		61E7F5D11A7888C1008ABFF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E7F5D01A7888C1008ABFF6 /* AppDelegate.m */; };
+		61E7F5D41A7888C1008ABFF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E7F5D31A7888C1008ABFF6 /* ViewController.m */; };
+		61E7F5D71A7888C1008ABFF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61E7F5D51A7888C1008ABFF6 /* Main.storyboard */; };
+		61E7F5D91A7888C1008ABFF6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61E7F5D81A7888C1008ABFF6 /* Images.xcassets */; };
+		61E7F5DC1A7888C1008ABFF6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61E7F5DA1A7888C1008ABFF6 /* LaunchScreen.xib */; };
+		61E7F5E81A7888C1008ABFF6 /* WYPCountingLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E7F5E71A7888C1008ABFF6 /* WYPCountingLabelDemoTests.m */; };
+		61E7F5F31A788910008ABFF6 /* WYPCountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E7F5F21A788910008ABFF6 /* WYPCountingLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61E7F5E21A7888C1008ABFF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61E7F5C01A7888C1008ABFF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61E7F5C71A7888C1008ABFF6;
+			remoteInfo = WYPCountingLabelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61E7F5C81A7888C1008ABFF6 /* WYPCountingLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYPCountingLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E7F5CC1A7888C1008ABFF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61E7F5CD1A7888C1008ABFF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61E7F5CF1A7888C1008ABFF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61E7F5D01A7888C1008ABFF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61E7F5D21A7888C1008ABFF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		61E7F5D31A7888C1008ABFF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		61E7F5D61A7888C1008ABFF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61E7F5D81A7888C1008ABFF6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		61E7F5DB1A7888C1008ABFF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		61E7F5E11A7888C1008ABFF6 /* WYPCountingLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYPCountingLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E7F5E61A7888C1008ABFF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61E7F5E71A7888C1008ABFF6 /* WYPCountingLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYPCountingLabelDemoTests.m; sourceTree = "<group>"; };
+		61E7F5F11A788910008ABFF6 /* WYPCountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WYPCountingLabel.h; path = ../Classes/WYPCountingLabel.h; sourceTree = "<group>"; };
+		61E7F5F21A788910008ABFF6 /* WYPCountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WYPCountingLabel.m; path = ../Classes/WYPCountingLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61E7F5C51A7888C1008ABFF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E7F5DE1A7888C1008ABFF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61E7F5BF1A7888C1008ABFF6 = {
+			isa = PBXGroup;
+			children = (
+				61E7F5F11A788910008ABFF6 /* WYPCountingLabel.h */,
+				61E7F5F21A788910008ABFF6 /* WYPCountingLabel.m */,
+				61E7F5CA1A7888C1008ABFF6 /* WYPCountingLabelDemo */,
+				61E7F5E41A7888C1008ABFF6 /* WYPCountingLabelDemoTests */,
+				61E7F5C91A7888C1008ABFF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61E7F5C91A7888C1008ABFF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61E7F5C81A7888C1008ABFF6 /* WYPCountingLabelDemo.app */,
+				61E7F5E11A7888C1008ABFF6 /* WYPCountingLabelDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61E7F5CA1A7888C1008ABFF6 /* WYPCountingLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				61E7F5CF1A7888C1008ABFF6 /* AppDelegate.h */,
+				61E7F5D01A7888C1008ABFF6 /* AppDelegate.m */,
+				61E7F5D21A7888C1008ABFF6 /* ViewController.h */,
+				61E7F5D31A7888C1008ABFF6 /* ViewController.m */,
+				61E7F5D51A7888C1008ABFF6 /* Main.storyboard */,
+				61E7F5D81A7888C1008ABFF6 /* Images.xcassets */,
+				61E7F5DA1A7888C1008ABFF6 /* LaunchScreen.xib */,
+				61E7F5CB1A7888C1008ABFF6 /* Supporting Files */,
+			);
+			path = WYPCountingLabelDemo;
+			sourceTree = "<group>";
+		};
+		61E7F5CB1A7888C1008ABFF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61E7F5CC1A7888C1008ABFF6 /* Info.plist */,
+				61E7F5CD1A7888C1008ABFF6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61E7F5E41A7888C1008ABFF6 /* WYPCountingLabelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				61E7F5E71A7888C1008ABFF6 /* WYPCountingLabelDemoTests.m */,
+				61E7F5E51A7888C1008ABFF6 /* Supporting Files */,
+			);
+			path = WYPCountingLabelDemoTests;
+			sourceTree = "<group>";
+		};
+		61E7F5E51A7888C1008ABFF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61E7F5E61A7888C1008ABFF6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61E7F5C71A7888C1008ABFF6 /* WYPCountingLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61E7F5EB1A7888C1008ABFF6 /* Build configuration list for PBXNativeTarget "WYPCountingLabelDemo" */;
+			buildPhases = (
+				61E7F5C41A7888C1008ABFF6 /* Sources */,
+				61E7F5C51A7888C1008ABFF6 /* Frameworks */,
+				61E7F5C61A7888C1008ABFF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYPCountingLabelDemo;
+			productName = WYPCountingLabelDemo;
+			productReference = 61E7F5C81A7888C1008ABFF6 /* WYPCountingLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61E7F5E01A7888C1008ABFF6 /* WYPCountingLabelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61E7F5EE1A7888C1008ABFF6 /* Build configuration list for PBXNativeTarget "WYPCountingLabelDemoTests" */;
+			buildPhases = (
+				61E7F5DD1A7888C1008ABFF6 /* Sources */,
+				61E7F5DE1A7888C1008ABFF6 /* Frameworks */,
+				61E7F5DF1A7888C1008ABFF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61E7F5E31A7888C1008ABFF6 /* PBXTargetDependency */,
+			);
+			name = WYPCountingLabelDemoTests;
+			productName = WYPCountingLabelDemoTests;
+			productReference = 61E7F5E11A7888C1008ABFF6 /* WYPCountingLabelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61E7F5C01A7888C1008ABFF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "王易平";
+				TargetAttributes = {
+					61E7F5C71A7888C1008ABFF6 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					61E7F5E01A7888C1008ABFF6 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 61E7F5C71A7888C1008ABFF6;
+					};
+				};
+			};
+			buildConfigurationList = 61E7F5C31A7888C1008ABFF6 /* Build configuration list for PBXProject "WYPCountingLabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61E7F5BF1A7888C1008ABFF6;
+			productRefGroup = 61E7F5C91A7888C1008ABFF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61E7F5C71A7888C1008ABFF6 /* WYPCountingLabelDemo */,
+				61E7F5E01A7888C1008ABFF6 /* WYPCountingLabelDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61E7F5C61A7888C1008ABFF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E7F5D71A7888C1008ABFF6 /* Main.storyboard in Resources */,
+				61E7F5DC1A7888C1008ABFF6 /* LaunchScreen.xib in Resources */,
+				61E7F5D91A7888C1008ABFF6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E7F5DF1A7888C1008ABFF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61E7F5C41A7888C1008ABFF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E7F5F31A788910008ABFF6 /* WYPCountingLabel.m in Sources */,
+				61E7F5D41A7888C1008ABFF6 /* ViewController.m in Sources */,
+				61E7F5D11A7888C1008ABFF6 /* AppDelegate.m in Sources */,
+				61E7F5CE1A7888C1008ABFF6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E7F5DD1A7888C1008ABFF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E7F5E81A7888C1008ABFF6 /* WYPCountingLabelDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61E7F5E31A7888C1008ABFF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61E7F5C71A7888C1008ABFF6 /* WYPCountingLabelDemo */;
+			targetProxy = 61E7F5E21A7888C1008ABFF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61E7F5D51A7888C1008ABFF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61E7F5D61A7888C1008ABFF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61E7F5DA1A7888C1008ABFF6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61E7F5DB1A7888C1008ABFF6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61E7F5E91A7888C1008ABFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61E7F5EA1A7888C1008ABFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61E7F5EC1A7888C1008ABFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WYPCountingLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		61E7F5ED1A7888C1008ABFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WYPCountingLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		61E7F5EF1A7888C1008ABFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WYPCountingLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYPCountingLabelDemo.app/WYPCountingLabelDemo";
+			};
+			name = Debug;
+		};
+		61E7F5F01A7888C1008ABFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WYPCountingLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYPCountingLabelDemo.app/WYPCountingLabelDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61E7F5C31A7888C1008ABFF6 /* Build configuration list for PBXProject "WYPCountingLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E7F5E91A7888C1008ABFF6 /* Debug */,
+				61E7F5EA1A7888C1008ABFF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61E7F5EB1A7888C1008ABFF6 /* Build configuration list for PBXNativeTarget "WYPCountingLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E7F5EC1A7888C1008ABFF6 /* Debug */,
+				61E7F5ED1A7888C1008ABFF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61E7F5EE1A7888C1008ABFF6 /* Build configuration list for PBXNativeTarget "WYPCountingLabelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E7F5EF1A7888C1008ABFF6 /* Debug */,
+				61E7F5F01A7888C1008ABFF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61E7F5C01A7888C1008ABFF6 /* Project object */;
+}

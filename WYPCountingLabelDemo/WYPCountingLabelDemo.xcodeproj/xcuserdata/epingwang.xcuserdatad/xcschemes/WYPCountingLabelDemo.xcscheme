@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "61F72BAF1A77896A00B85274"
-               BuildableName = "WYPCountingLabel.app"
-               BlueprintName = "WYPCountingLabel"
-               ReferencedContainer = "container:WYPCountingLabel.xcodeproj">
+               BlueprintIdentifier = "61E7F5C71A7888C1008ABFF6"
+               BuildableName = "WYPCountingLabelDemo.app"
+               BlueprintName = "WYPCountingLabelDemo"
+               ReferencedContainer = "container:WYPCountingLabelDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "61F72BC81A77896B00B85274"
-               BuildableName = "WYPCountingLabelTests.xctest"
-               BlueprintName = "WYPCountingLabelTests"
-               ReferencedContainer = "container:WYPCountingLabel.xcodeproj">
+               BlueprintIdentifier = "61E7F5E01A7888C1008ABFF6"
+               BuildableName = "WYPCountingLabelDemoTests.xctest"
+               BlueprintName = "WYPCountingLabelDemoTests"
+               ReferencedContainer = "container:WYPCountingLabelDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "61F72BC81A77896B00B85274"
-               BuildableName = "WYPCountingLabelTests.xctest"
-               BlueprintName = "WYPCountingLabelTests"
-               ReferencedContainer = "container:WYPCountingLabel.xcodeproj">
+               BlueprintIdentifier = "61E7F5E01A7888C1008ABFF6"
+               BuildableName = "WYPCountingLabelDemoTests.xctest"
+               BlueprintName = "WYPCountingLabelDemoTests"
+               ReferencedContainer = "container:WYPCountingLabelDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "61F72BAF1A77896A00B85274"
-            BuildableName = "WYPCountingLabel.app"
-            BlueprintName = "WYPCountingLabel"
-            ReferencedContainer = "container:WYPCountingLabel.xcodeproj">
+            BlueprintIdentifier = "61E7F5C71A7888C1008ABFF6"
+            BuildableName = "WYPCountingLabelDemo.app"
+            BlueprintName = "WYPCountingLabelDemo"
+            ReferencedContainer = "container:WYPCountingLabelDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "61F72BAF1A77896A00B85274"
-            BuildableName = "WYPCountingLabel.app"
-            BlueprintName = "WYPCountingLabel"
-            ReferencedContainer = "container:WYPCountingLabel.xcodeproj">
+            BlueprintIdentifier = "61E7F5C71A7888C1008ABFF6"
+            BuildableName = "WYPCountingLabelDemo.app"
+            BlueprintName = "WYPCountingLabelDemo"
+            ReferencedContainer = "container:WYPCountingLabelDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "61F72BAF1A77896A00B85274"
-            BuildableName = "WYPCountingLabel.app"
-            BlueprintName = "WYPCountingLabel"
-            ReferencedContainer = "container:WYPCountingLabel.xcodeproj">
+            BlueprintIdentifier = "61E7F5C71A7888C1008ABFF6"
+            BuildableName = "WYPCountingLabelDemo.app"
+            BlueprintName = "WYPCountingLabelDemo"
+            ReferencedContainer = "container:WYPCountingLabelDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

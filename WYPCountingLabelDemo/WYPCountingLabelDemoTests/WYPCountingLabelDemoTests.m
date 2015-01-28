@@ -1,19 +1,19 @@
 //
-//  WYPCountingLabelTests.m
-//  WYPCountingLabelTests
+//  WYPCountingLabelDemoTests.m
+//  WYPCountingLabelDemoTests
 //
-//  Created by 王易平 on 15/1/27.
+//  Created by 王易平 on 15/1/28.
 //  Copyright (c) 2015年 王易平. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface WYPCountingLabelTests : XCTestCase
+@interface WYPCountingLabelDemoTests : XCTestCase
 
 @end
 
-@implementation WYPCountingLabelTests
+@implementation WYPCountingLabelDemoTests
 
 - (void)setUp {
     [super setUp];
